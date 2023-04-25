@@ -1,0 +1,35 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+	"$id": "http://example.com/example.json",
+	"type": "object",
+	"properties": {
+		"links": {
+			"type": "object",
+			"properties": {
+				"next": {
+					"type": "string"
+				},
+				"previous": {
+					"type": "string"
+				},
+				"self": {
+					"type": "string"
+				}
+			}
+		},
+		"element_count": {
+			"type": "integer"
+		},
+		"near_earth_objects": {
+			"type": "object",
+			"properties": {
+				"2023-01-01": {
+					"type": "array"
+				},
+				"2023-01-02": {
+					"type": "array"
+				}
+			}
+		}
+	}
+}
