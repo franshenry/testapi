@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.213" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-04-26T17:32:54" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="@get As User I want to see data NeOWS" timestamp="2023-04-26T17:32:54" tests="2" file="/Volumes/HDD ANGEL/testapi/test/get_neows_test.js" time="4.212" failures="0">
+    <testcase name="@get As User I want to see data NeOWS @positive As User I want to see object near earth" time="3.008" classname="@positive As User I want to see object near earth">
+    </testcase>
+    <testcase name="@get As User I want to see data NeOWS @negative As User I want to see object near earth more than 7 days" time="1.201" classname="@negative As User I want to see object near earth more than 7 days">
+    </testcase>
+  </testsuite>
+</testsuites>
